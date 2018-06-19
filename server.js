@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 const express = require('express');
-const port = normalizePort(process.env.PORT || 8080);
+const port = normalizePort(process.env.PORT || 80);
 
 const App = require('./App.js');
 
